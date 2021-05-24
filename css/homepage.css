@@ -129,10 +129,8 @@
     border-radius: 1.625rem;
 }
 .featured-game .featured-game-card:hover .blur-sharp{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 192px;
+    border: 7px solid white;    
 }
 
 .featured-game .cover{
@@ -200,11 +198,11 @@ footer ul li a:hover{
  @media (max-width:768px) {
      
     /* Featured Game */
-    .featured-game .featured-game-card{
+    /* .featured-game .featured-game-card{
         top: 0%;
         left: 50%;
         transform: translate(-50%, 0%);
-    }
+    } */
     /*  */
  }
 
@@ -236,6 +234,14 @@ footer ul li a:hover{
         padding-left: 1.25rem;
     }
     /*  */
+
+    /* Featured Game */
+    .featured-game .featured-game-card:hover .blur-sharp{
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
  }
 
 /* X-Large devices (large desktops, 1200px and up) */
