@@ -1,6 +1,6 @@
 /* Complete Checkout */
 .complete-checkout .img-fluid{
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
 
@@ -14,7 +14,9 @@
     background-color: #E7EAF5;
 }
 
+@media (min-width:768px){
 .complete-checkout .button-group{
     width: 250px;
+}
 }
 /*  */
