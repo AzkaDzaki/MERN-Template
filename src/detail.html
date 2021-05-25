@@ -13,7 +13,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/homepage.css"> <!-- Get navbar & footer style -->
     <link rel="stylesheet" href="../css/utilities.css">
-    <link rel="stylesheet" href="../css/details.css">
+    <link rel="stylesheet" href="../css/detail.css">
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -69,7 +69,8 @@
                             <a class="nav-link" href="#">Global Rank</a>
                         </li>
                         <li class="nav-item my-auto">
-                            <a class="btn btn-sign-in ms-lg-2 rounded-pill" href="#" role="button">Sign In</a>
+                            <a class="btn btn-sign-in ms-lg-2 rounded-pill" href="./sign-in.html" role="button">Sign
+                                In</a>
                         </li>
                     </ul>
                 </div>
@@ -79,13 +80,13 @@
 
     <!-- Detail Content -->
     <section class="detail pt-lg-60 pb-50">
-        <div class="container-fluid">
+        <div class="container-xxl container-fluid">
             <div class="detail-header pb-50">
                 <h2 class="text-4xl fw-bold color-palette-1 text-start mb-10">Top Up</h2>
                 <p class="text-lg color-palette-1 mb-0">Perkuat akun dan jadilah pemenang</p>
             </div>
             <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-5 pb-50 pb-md-0 pe-md-25">
+                <div class="col-xl-3 col-lg-4 col-md-5 pb-50 pb-md-0 pe-md-25 text-md-start text-center">
                     <img src="../assets/img/Detail-1.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-xl-9 col-lg-8 col-md-7 ps-md-25">
@@ -95,7 +96,7 @@
                         <p class="text-lg color-palette-2 mb-0">Category: Mobile</p>
                     </div>
                     <hr>
-                    <form action="">
+                    <form action="./checkout.html" method="POST">
                         <div class="pt-50">
                             <div class="">
                                 <label for="ID" class="form-label text-lg fw-medium color-palette-1 mb-10">Verify
@@ -110,40 +111,85 @@
                                 <label class="col-lg-4 col-sm-6 ps-15 pe-15 pt-15 pb-15" for="topup1">
                                     <input class="d-none" type="radio" id="topup1" name="topup" value="topup1">
                                     <div class="detail-card">
-                                        <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">125</span> Gold
-                                        </p>
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">125</span>
+                                                Gold
+                                            </p>
+                                            <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
                                         <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
                                     </div>
                                 </label>
                                 <label class="col-lg-4 col-sm-6 ps-15 pe-15 pt-15 pb-15" for="topup2">
                                     <input class="d-none" type="radio" id="topup2" name="topup" value="topup2">
                                     <div class="detail-card">
-                                        <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">225</span> Gold
-                                        </p>
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">225</span>
+                                                Gold
+                                            </p>
+                                            <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
                                         <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
                                     </div>
                                 </label>
                                 <label class="col-lg-4 col-sm-6 ps-15 pe-15 pt-15 pb-15" for="topup3">
                                     <input class="d-none" type="radio" id="topup3" name="topup" value="topup3">
                                     <div class="detail-card">
-                                        <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">350</span> Gold
-                                        </p>
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">350</span>
+                                                Gold
+                                            </p>
+                                            <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
                                         <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
                                     </div>
                                 </label>
                                 <label class="col-lg-4 col-sm-6 ps-15 pe-15 pt-15 pb-15" for="topup4">
                                     <input class="d-none" type="radio" id="topup4" name="topup" value="topup4">
                                     <div class="detail-card">
-                                        <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">550</span> Gold
-                                        </p>
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">550</span>
+                                                Gold
+                                            </p>
+                                            <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
                                         <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
                                     </div>
                                 </label>
                                 <label class="col-lg-4 col-sm-6 ps-15 pe-15 pt-15 pb-15" for="topup5">
                                     <input class="d-none" type="radio" id="topup5" name="topup" value="topup5">
                                     <div class="detail-card">
-                                        <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">750</span> Gold
-                                        </p>
+                                        <div class="d-flex justify-content-between">
+                                            <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">750</span>
+                                                Gold
+                                            </p>
+                                            <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
                                         <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
                                     </div>
                                 </label>
@@ -160,14 +206,32 @@
                                         <input class="d-none" type="radio" id="transfer" name="paymentMethod"
                                             value="transfer">
                                         <div class="detail-card">
-                                            <p class="text-3xl color-palette-1 fw-medium m-0">Transfer</p>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="text-3xl color-palette-1 fw-medium m-0">Transfer</p>
+                                                <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                    <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                        stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
                                             <p class="text-lg color-palette-1 m-0">Worldwide Available</p>
                                         </div>
                                     </label>
                                     <label class="col-lg-4 col-sm-6 ps-15 pe-15 pt-15 pb-15" for="visa">
                                         <input class="d-none" type="radio" id="visa" name="paymentMethod" value="visa">
                                         <div class="detail-card">
-                                            <p class="text-3xl color-palette-1 fw-medium m-0">VISA</p>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="text-3xl color-palette-1 fw-medium m-0">VISA</p>
+                                                <svg id="icon-check" width="20" height="20" viewBox="0 0 20 20"
+                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
+                                                    <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
+                                                        stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
                                             <p class="text-lg color-palette-1 m-0">Credit Card</p>
                                         </div>
                                     </label>
@@ -186,7 +250,8 @@
                                 placeholder="Enter your Bank Account Name">
                         </div>
                         <div class="d-sm-block d-flex flex-column w-100">
-                            <input type="submit" class="rounded-pill text-white border-0 text-lg" value="Continue">
+                            <input type="submit" class="rounded-pill fw-medium text-white border-0 text-lg"
+                                value="Continue">
                         </div>
                     </form>
                 </div>

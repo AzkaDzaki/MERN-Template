@@ -46,8 +46,32 @@
     padding-bottom: 2.5rem;
 }
 
+.pt-30{
+    padding-top: 1.875rem;
+}
+
+.pt-100{
+    padding-top: 6.25rem;
+}
+
+.pb-100{
+    padding-bottom: 6.25rem;
+}
+
+.pt-70{
+    padding-top: 4.375rem;
+}
+
 .pt-50{
     padding-top: 3.125rem;
+}
+
+.pt-145{
+    padding-top: 9.063rem;
+}
+
+.pb-145{
+    padding-bottom: 9.063rem;
 }
 
 .pb-50{
@@ -135,6 +159,10 @@
 
 .mb-24{
     margin-bottom: 1.5rem;
+}
+
+.mb-20{
+    margin-bottom: 1.25rem;
 }
 
 
