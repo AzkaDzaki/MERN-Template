@@ -52,7 +52,14 @@
 
 .pb-50{
     padding-bottom: 3.125rem;
+}
 
+.pb-15{
+    margin-bottom: 0.938rem;
+}
+
+.pt-15{
+    margin-top: 0.938rem;
 }
 
 .pt-60{
@@ -66,6 +73,7 @@
 .pe-15{
     padding-right: 0.938rem;
 }
+
 /*  */
 
 
@@ -197,17 +205,26 @@ line-height: 1rem;
 }
 /*  */
 
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+   
+ }
+/* Medium devices (landscape phones, 768px and up) */
+@media (min-width: 768px) { 
+   /* Padding */
+.pe-md-25{
+    padding-right: 1.563rem;
+}
+
+.ps-md-25{
+    padding-left: 1.563rem;
+}
+ }
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    /* Spacing */
-    .me-lg-35{
-        margin-right: 2.2rem;
-    }
-    
-    .ms-lg-35{
-        margin-left: 2.2rem;
-    }
-
+    /* Padding */
     .pe-lg-60{
         padding-right: 3.75rem;
     }
@@ -219,13 +236,42 @@ line-height: 1rem;
     .pt-lg-60{
         padding-top: 3.75rem;
     }
+    /*  */
+
+
+    /* Margin */
+    .me-lg-35{
+        margin-right: 2.2rem;
+    }
+    
+    .ms-lg-35{
+        margin-left: 2.2rem;
+    }
 
     .me-lg-20{
         margin-right: 1.25rem;
     }
     
-.ms-lg-40{
-    margin-left: 2.5rem;
+    .ms-lg-40{
+        margin-left: 2.5rem;
+    }
+
+    /*  */
 }
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .container-fluid {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+ }
+
+@media (min-width: 1400px){
+    .container-xxl{
+        max-width: 1420px;
+    }
 }
+
     /*  */

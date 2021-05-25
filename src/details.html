@@ -78,69 +78,117 @@
     </section>
 
     <!-- Detail Content -->
-    <section class="detail pt-60 pb-50">
+    <section class="detail pt-lg-60 pb-50">
         <div class="container-fluid">
             <div class="detail-header pb-50">
                 <h2 class="text-4xl fw-bold color-palette-1 text-start mb-10">Top Up</h2>
                 <p class="text-lg color-palette-1 mb-0">Perkuat akun dan jadilah pemenang</p>
             </div>
             <div class="row">
-                <div class="col-lg-3">
-                    <img src="../assets/img/Detail-1.png" alt="">
+                <div class="col-xl-3 col-lg-4 col-md-5 pb-50 pb-md-0 pe-md-25">
+                    <img src="../assets/img/Detail-1.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-lg-9">
+                <div class="col-xl-9 col-lg-8 col-md-7 ps-md-25">
                     <div class="pb-50">
                         <h2 class="text-4xl fw-bold color-palette-1 text-start mb-10 mt-10">Mobile Legends:<br>
                             The New Battle 2021</h2>
                         <p class="text-lg color-palette-2 mb-0">Category: Mobile</p>
                     </div>
                     <hr>
-                    <div class="pt-50 pb-50">
-                        <form>
-                            <div class="pb-50">
+                    <form action="">
+                        <div class="pt-50">
+                            <div class="">
                                 <label for="ID" class="form-label text-lg fw-medium color-palette-1 mb-10">Verify
                                     ID</label>
-                                <input type="email" class="form-control rounded-pill text-lg" id="ID"
+                                <input type="text" class="form-control rounded-pill text-lg" id="ID" name="ID"
                                     aria-describedby="verifyID" placeholder="Enter your ID">
                             </div>
-                        </form>
-                    </div>
-                    <div>
-                        <p class="text-lg fw-medium color-palette-1 mb-10">Nominal Top Up</p>
-                        <div class="row justify-content-between">
-                            <div class="col-lg-4 pe-15 py-2">
-                                <div class="detail-card">
-                                    <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">125</span> Gold</p>
-                                    <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
-                                </div>
-
-                            </div>
-                            <div class="col-lg-4 pe-15 ps-15 py-2">
-                                <div class="detail-card">
-                                    <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">225</span> Gold</p>
-                                    <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pe-15 ps-15 py-2">
-                                <div class="detail-card">
-                                    <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">350</span> Gold</p>
-                                    <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pe-15 ps-15 py-2">
-                                <div class="detail-card">
-                                    <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">550</span> Gold</p>
-                                    <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 ps-15 py-2">
-                                <div class="detail-card">
-                                    <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">750</span> Gold</p>
-                                    <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
+                        </div>
+                        <div class="pt-50 pb-50">
+                            <p class="text-lg fw-medium color-palette-1 mb-10">Nominal Top Up</p>
+                            <div class="row justify-content-between">
+                                <label class="col-lg-4 col-sm-6 ps-15 pe-15 pt-15 pb-15" for="topup1">
+                                    <input class="d-none" type="radio" id="topup1" name="topup" value="topup1">
+                                    <div class="detail-card">
+                                        <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">125</span> Gold
+                                        </p>
+                                        <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
+                                    </div>
+                                </label>
+                                <label class="col-lg-4 col-sm-6 ps-15 pe-15 pt-15 pb-15" for="topup2">
+                                    <input class="d-none" type="radio" id="topup2" name="topup" value="topup2">
+                                    <div class="detail-card">
+                                        <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">225</span> Gold
+                                        </p>
+                                        <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
+                                    </div>
+                                </label>
+                                <label class="col-lg-4 col-sm-6 ps-15 pe-15 pt-15 pb-15" for="topup3">
+                                    <input class="d-none" type="radio" id="topup3" name="topup" value="topup3">
+                                    <div class="detail-card">
+                                        <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">350</span> Gold
+                                        </p>
+                                        <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
+                                    </div>
+                                </label>
+                                <label class="col-lg-4 col-sm-6 ps-15 pe-15 pt-15 pb-15" for="topup4">
+                                    <input class="d-none" type="radio" id="topup4" name="topup" value="topup4">
+                                    <div class="detail-card">
+                                        <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">550</span> Gold
+                                        </p>
+                                        <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
+                                    </div>
+                                </label>
+                                <label class="col-lg-4 col-sm-6 ps-15 pe-15 pt-15 pb-15" for="topup5">
+                                    <input class="d-none" type="radio" id="topup5" name="topup" value="topup5">
+                                    <div class="detail-card">
+                                        <p class="text-3xl color-palette-1 m-0"><span class="fw-medium">750</span> Gold
+                                        </p>
+                                        <p class="text-lg color-palette-1 m-0">Rp 3.250.000</p>
+                                    </div>
+                                </label>
+                                <div class="col-lg-4 col-sm-6 pt-15">
+                                    <!-- Blank -->
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="pb-50">
+                            <p class="text-lg fw-medium color-palette-1 mb-10">Payment Method</p>
+                            <fieldset id="paymentMethod">
+                                <div class="row justify-content-between">
+                                    <label class="col-lg-4 col-sm-6 ps-15 pe-15 pt-15 pb-15" for="transfer">
+                                        <input class="d-none" type="radio" id="transfer" name="paymentMethod"
+                                            value="transfer">
+                                        <div class="detail-card">
+                                            <p class="text-3xl color-palette-1 fw-medium m-0">Transfer</p>
+                                            <p class="text-lg color-palette-1 m-0">Worldwide Available</p>
+                                        </div>
+                                    </label>
+                                    <label class="col-lg-4 col-sm-6 ps-15 pe-15 pt-15 pb-15" for="visa">
+                                        <input class="d-none" type="radio" id="visa" name="paymentMethod" value="visa">
+                                        <div class="detail-card">
+                                            <p class="text-3xl color-palette-1 fw-medium m-0">VISA</p>
+                                            <p class="text-lg color-palette-1 m-0">Credit Card</p>
+                                        </div>
+                                    </label>
+                                    <div class="col-lg-4 col-sm-6 pt-15">
+                                        <!-- Blank -->
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="pb-50">
+                            <label for="bankAccount" class="form-label text-lg fw-medium color-palette-1 mb-10">Bank
+                                Account
+                                Name</label>
+                            <input type="text" class="form-control rounded-pill text-lg" id="bankAccount"
+                                name="bankAccount" aria-describedby="bankAccount"
+                                placeholder="Enter your Bank Account Name">
+                        </div>
+                        <div class="d-sm-block d-flex flex-column w-100">
+                            <input type="submit" class="rounded-pill text-white border-0 text-lg" value="Continue">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -151,7 +199,7 @@
         <footer>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-4 mb-lg-0 mb-4">
+                    <div class="col-lg-4 text-lg-start text-center">
                         <a href="" class="mb-30">
                             <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -174,9 +222,9 @@
                             pemenang sejati</p>
                         <p class="mt-30 text-lg color-palette-1 mb-30">Copyright 2021. All Rights Reserved.</p>
                     </div>
-                    <div class="col-lg-8">
-                        <div class="row gap-sm-0 gap-4">
-                            <div class="col-md-4 col-sm-6">
+                    <div class="col-lg-8 mt-lg-0 mt-20">
+                        <div class="row gap-sm-0">
+                            <div class="col-md-4 col-6 mb-lg-0 mb-25">
                                 <p class="text-lg fw-semibold color-palette-1 mb-12">Company</p>
                                 <ul class="list-unstyled">
                                     <li class="mb-6">
@@ -195,7 +243,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-md-4 col-sm-6">
+                            <div class="col-md-4 col-6 mb-lg-0 mb-25">
                                 <p class="text-lg fw-semibold color-palette-1 mb-12">Support</p>
                                 <ul class="list-unstyled">
                                     <li class="mb-6">
@@ -212,22 +260,26 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-12 mt-lg-0 mt-25">
                                 <p class="text-lg fw-semibold color-palette-1 mb-12">Connect</p>
                                 <ul class="list-unstyled">
                                     <li class="mb-6">
-                                        <a href="" class="text-lg color-palette-1 text-decoration-none">hi@store.gg</a>
+                                        <a href="mailto: hi@store.gg"
+                                            class="text-lg color-palette-1 text-decoration-none">hi@store.gg</a>
                                     </li>
                                     <li class="mb-6">
-                                        <a href=""
+                                        <a href="mailto: team@store.gg"
                                             class="text-lg color-palette-1 text-decoration-none">team@store.gg</a>
                                     </li>
                                     <li class="mb-6">
-                                        <a href="" class="text-lg color-palette-1 text-decoration-none">Pasific 12,
+                                        <a href="http://maps.google.com/?q=Pasific 12,
+                                        Jakarta Selatan" class="text-lg color-palette-1 text-decoration-none">Pasific
+                                            12,
                                             Jakarta Selatan</a>
                                     </li>
                                     <li class="mb-6">
-                                        <a href="" class="text-lg color-palette-1 text-decoration-none">021 - 1122 -
+                                        <a href="tel: 02111229090"
+                                            class="text-lg color-palette-1 text-decoration-none">021 - 1122 -
                                             9090</a>
                                     </li>
                                 </ul>
