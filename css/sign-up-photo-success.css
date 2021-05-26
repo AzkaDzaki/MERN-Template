@@ -35,6 +35,14 @@
     width: 100%;
 }
 
+
+@media (max-width:576px){
+    .sign-up-photo-success .form-input{
+        height: 100vh;
+        justify-content: space-between;
+    }
+}
+
 @media (min-width: 992px){
     .sign-up-photo-success .container,
     .sign-up-photo-success select{
