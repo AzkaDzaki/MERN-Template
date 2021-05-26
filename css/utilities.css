@@ -41,13 +41,28 @@
 /*  */
 
 /* Padding */
-.py-40{
+.pt-40{
     padding-top: 2.5rem;
+}
+
+.pb-40{
     padding-bottom: 2.5rem;
 }
 
 .pt-30{
     padding-top: 1.875rem;
+}
+
+.pb-30{
+    padding-bottom: 1.875rem;
+}
+
+.pt-10{
+    padding-top: 0.625rem;
+}
+
+.pb-10{
+    padding-bottom: 0.625rem;
 }
 
 .pt-100{
@@ -88,6 +103,26 @@
 
 .pe-15{
     padding-right: 0.938rem;
+}
+
+.pb-20{
+    padding-bottom: 1.25rem;
+}
+
+.pt-20{
+    padding-top: 1.25rem;
+}
+
+.pb-47{
+    padding-bottom: 2.938rem;
+}
+
+.pb-52{
+    padding-bottom: 3.25rem;
+}
+
+.pt-130{
+    padding-top: 8.125rem;
 }
 
 /*  */
@@ -216,12 +251,12 @@
 
 .text-xs{
     font-size: 0.75rem;
-line-height: 1rem;
+    line-height: 1rem;
 }
 
 .text-xxs{
     font-size: 0.625rem;
-line-height: 1rem;
+    line-height: 1rem;
 }
 /*  */
 
@@ -240,6 +275,38 @@ line-height: 1rem;
 .ps-md-25{
     padding-left: 1.563rem;
 }
+
+.pt-md-50{
+    padding-top: 3.125rem;
+}
+
+.pb-md-50{
+    padding-bottom: 3.125rem;
+}
+
+.pb-md-15{
+    padding-bottom: 0.938rem;
+}
+
+.pt-md-15{
+    padding-top: 0.938rem;
+}
+
+.ps-md-15{
+    padding-left: 0.938rem;
+}
+
+.pe-md-15{
+    padding-right: 0.938rem;
+}
+/*  */
+
+/* Margin */
+.mb-md-10{
+    margin-bottom: 0.625rem !important;
+}
+/*  */
+
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -273,21 +340,37 @@ line-height: 1rem;
         padding-top: 3.75rem;
     }
    
-.pt-lg-145{
-    padding-top: 9.063rem;
-}
+    .pt-lg-145{
+        padding-top: 9.063rem;
+    }
 
-.pb-lg-145{
-    padding-bottom: 9.063rem;
-}
+    .pb-lg-145{
+        padding-bottom: 9.063rem;
+    }
 
-.pt-lg-179{
-    padding-top: 11.188rem;
-}
+    .pt-lg-179{
+        padding-top: 11.188rem;
+    }
 
-.pb-lg-179{
-    padding-bottom: 11.188rem;
-}
+    .pb-lg-179{
+        padding-bottom: 11.188rem;
+    }
+
+    .pt-lg-40{
+        padding-top: 2.5rem;
+    }
+
+    .pb-lg-40{
+        padding-bottom: 2.5rem;
+    }
+
+    .pt-lg-50{
+        padding-top: 3.125rem;
+    }
+
+    .pb-lg-50{
+        padding-bottom: 3.125rem;
+    }
     /*  */
 
 
