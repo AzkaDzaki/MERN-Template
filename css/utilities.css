@@ -141,6 +141,10 @@
     padding-top: 9.063rem;
 }
 
+.pt-0{
+    padding-top: 0rem;
+}
+
 /*  */
 
 
@@ -297,7 +301,7 @@
 }
 
 .pt-md-50{
-    padding-top: 3.125rem;
+    padding-top: 3.125rem !important;
 }
 
 .pb-md-50{
