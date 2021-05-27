@@ -79,6 +79,12 @@
 
 
 /* Featured Game */
+.featured-game .overflow-setting{
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+
 .featured-game .featured-game-card{
     transition: all 0.4s;
     border-radius: 1.625rem;
@@ -122,6 +128,13 @@
 .featured-game .game-icon{
     margin-top: 3.125rem;
 }
+
+@media (min-width:768px){
+    .featured-game .overflow-setting{
+        overflow: hidden;
+    }
+}
+
 /*  */
 
 

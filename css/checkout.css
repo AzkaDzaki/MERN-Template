@@ -9,6 +9,17 @@
     border-radius: 1.625rem;
 }
 
+.checkout .cropped {
+  width: 110px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 1.625rem;
+}
+
+.checkout .cropped img {
+  margin: -10px 0px 0px 0px;
+}
+
 .checkout hr{
     margin: 0;    
     background-color:#E7EAF5;
@@ -82,6 +93,11 @@
       background-color: #4D17E2;
   }
 
+  .checkout .img-checkout{
+    width:110px;
+    height:140px;
+  }
+
 
   /* Medium devices (landscape phones, 768px and up) */
 @media (min-width: 768px) { 
@@ -89,6 +105,14 @@
     .checkout span.payment-details {
         float: right;
       }
+    
+    .checkout .cropped {
+      width: 200px;
+      height: 130px;
+      overflow: hidden;
+      border-radius: 1.625rem;
+    }
+    
   }
 
 
