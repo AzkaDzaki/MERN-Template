@@ -18,9 +18,8 @@
 
 .checkout span.purchase-details,
 .checkout span.payment-details {
-    display: flex;
+    display: block;
     font-weight: 500;
-    justify-content: flex-end;
 }
 
 .checkout .checkbox-label {
