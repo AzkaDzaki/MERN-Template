@@ -85,6 +85,16 @@
     background-color: #FFEED3
 }
 
+.transactions-detail .checkout .label.success{
+    color: #1ABC9C;
+    background-color: #B8E9DF
+}
+
+.transactions-detail .checkout .label.failed{
+    color: #FE5761;
+    background-color: #FFC6C9
+}
+
 .transactions-detail .checkout .img-fluid{
     max-width: 100%;
     height: auto;
