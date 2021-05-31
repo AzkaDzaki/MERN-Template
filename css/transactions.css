@@ -62,7 +62,7 @@
     width: 6px;
     height: 6px;
     border-radius: 999px;
-    margin: 9px 6px 0px 20px;
+    margin: 9px 6px 0px 0px;
 }
 
 .transactions .latest-transaction .icon-status.pending{
