@@ -1,16 +1,16 @@
 /* Complete Checkout */
-.complete-checkout .img-fluid{
+.not-found .img-fluid{
     max-width: 66%;
     height: auto;
 }
 
-.complete-checkout .btn-homepage{
+.not-found .btn-homepage{
     padding: 0.75rem;
     background-color: #4D17E2;
 }
 
 @media (min-width:768px){
-.complete-checkout .button-group{
+.not-found .button-group{
     width: 190px;
 }
 }
